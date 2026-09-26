@@ -1,0 +1,41 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Hugging Face cache and downloaded model weights
+models/
+hf_cache/
+*.bin
+*.safetensors
+*.onnx
+*.pt
+*.pth
+
+# Temporary and log files
+*.log
+temp/
+tmp/
+.coverage
+htmlcov/
+
+# Editor and OS settings
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
